@@ -17,6 +17,7 @@
 		45D9A651215286D700773271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D9A64F215286D700773271 /* LaunchScreen.storyboard */; };
 		45D9A65C215286D700773271 /* colorTapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D9A65B215286D700773271 /* colorTapTests.swift */; };
 		45D9A667215286D700773271 /* colorTapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D9A666215286D700773271 /* colorTapUITests.swift */; };
+		45D9A67521528CE100773271 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D9A67421528CE100773271 /* PlayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		45D9A662215286D700773271 /* colorTapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colorTapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D9A666215286D700773271 /* colorTapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorTapUITests.swift; sourceTree = "<group>"; };
 		45D9A668215286D700773271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45D9A67421528CE100773271 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				45D9A646215286D500773271 /* GameScene.swift */,
 				45D9A648215286D500773271 /* GameViewController.swift */,
 				45D9A64A215286D500773271 /* Main.storyboard */,
+				45D9A67421528CE100773271 /* PlayViewController.swift */,
 				45D9A64D215286D700773271 /* Assets.xcassets */,
 				45D9A64F215286D700773271 /* LaunchScreen.storyboard */,
 				45D9A652215286D700773271 /* Info.plist */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45D9A67521528CE100773271 /* PlayViewController.swift in Sources */,
 				45D9A647215286D500773271 /* GameScene.swift in Sources */,
 				45D9A649215286D500773271 /* GameViewController.swift in Sources */,
 				45D9A641215286D500773271 /* AppDelegate.swift in Sources */,
